@@ -1,5 +1,8 @@
 use std::{
-    collections::HashSet, fs::File, io::{self, BufRead}, path::Path
+    collections::HashSet,
+    fs::File,
+    io::{self, BufRead},
+    path::Path,
 };
 
 fn main() {

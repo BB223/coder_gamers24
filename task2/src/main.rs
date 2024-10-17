@@ -123,7 +123,7 @@ fn task2(n: u64) -> u64 {
         diamond_sum += r;
         c += 1;
         if c == 8 {
-            break
+            break;
         }
     }
     diamond_sum % modulo

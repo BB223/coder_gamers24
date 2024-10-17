@@ -10,7 +10,7 @@ fn main() {
             println!("{}", n);
         }
         if c == 5 {
-            break
+            break;
         }
     }
 }
@@ -22,7 +22,7 @@ fn get_divisors(n: i32) -> HashSet<i32> {
     for test in 2..=sqrt {
         if n % test == 0 {
             res.insert(test);
-            res.insert(n/test);
+            res.insert(n / test);
         }
     }
     res
